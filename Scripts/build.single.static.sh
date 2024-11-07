@@ -44,6 +44,8 @@ GIT_REPOSITORY_LIST=(
     "https://github.com/libimobiledevice/libimobiledevice-glue"
     "https://github.com/libimobiledevice/libusbmuxd"
     "https://github.com/libimobiledevice/libimobiledevice"
+    "https://github.com/libimobiledevice/libirecovery"
+    "https://github.com/libimobiledevice/idevicerestore"
     "https://github.com/libimobiledevice/ideviceinstaller"
     "https://github.com/libimobiledevice/libideviceactivation"
 )

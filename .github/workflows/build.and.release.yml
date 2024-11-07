@@ -104,4 +104,6 @@ jobs:
             libimobiledevice.xcframework.zip
             libplist.xcframework.zip
             libssl.xcframework.zip
+            libirecovery.xcframework.zip
+            idevicerestore.xcframework.zip
             binpack.tar.gz

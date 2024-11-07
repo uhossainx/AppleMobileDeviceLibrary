@@ -28,6 +28,8 @@ FRAMEWORK_DEFS["libtatsu"]="libtatsu/tatsu.h libtatsu/tss.h|libtatsu.a"
 FRAMEWORK_DEFS["libimobiledevice_glue"]="libimobiledevice-glue|libimobiledevice-glue-1.0.a"
 FRAMEWORK_DEFS["libusbmuxd"]="usbmuxd-proto.h usbmuxd.h|libusbmuxd-2.0.a"
 FRAMEWORK_DEFS["libimobiledevice"]="libimobiledevice|libimobiledevice-1.0.a"
+FRAMEWORK_DEFS["libirecovery"]="libirecovery/libirecovery.h|libirecovery-1.0.a"
+FRAMEWORK_DEFS["idevicerestore"]="idevicerestore/idevicerestore.h|libidevicerestore.a"
 
 BUILD_SEQUENCE=(
     libssl
@@ -36,6 +38,8 @@ BUILD_SEQUENCE=(
     libimobiledevice_glue
     libusbmuxd
     libimobiledevice
+    libirecovery
+    idevicerestore
 )
 
 function build_xcframework() {

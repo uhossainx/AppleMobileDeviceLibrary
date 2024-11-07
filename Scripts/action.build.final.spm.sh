@@ -25,6 +25,8 @@ sed -i "" "s|__CHECKSUM_libplist__|$(shasum -a 256 ./libplist.xcframework.zip | 
 sed -i "" "s|__CHECKSUM_libssl__|$(shasum -a 256 ./libssl.xcframework.zip | awk '{print $1}')|g" Package.swift
 sed -i "" "s|__CHECKSUM_libusbmuxd__|$(shasum -a 256 ./libusbmuxd.xcframework.zip | awk '{print $1}')|g" Package.swift
 sed -i "" "s|__CHECKSUM_libtatsu__|$(shasum -a 256 ./libtatsu.xcframework.zip | awk '{print $1}')|g" Package.swift
+sed -i "" "s|__CHECKSUM_libirecovery__|$(shasum -a 256 ./libirecovery.xcframework.zip | awk '{print $1}')|g" Package.swift
+sed -i "" "s|__CHECKSUM_idevicerestore__|$(shasum -a 256 ./idevicerestore.xcframework.zip | awk '{print $1}')|g" Package.swift
 
 echo "[*] Package Ready!"
 
